@@ -10,16 +10,25 @@ const Hero = () => {
       >
         <div className="flex flex-col justify-center items-center mt-5">
           <div className="w-5 h-5 rounded-full bg-[#915EFF]" />
-          <div className="w-1 sm:h-80 h-40 violet-gradient" />
+          <div className="w-1 sm:h-80 h-20 violet-gradient" />
         </div>
 
         <div>
-          <h1 className={`${styles.heroHeadText}`}>
+          <h1 className={`${styles.heroHeadText} `}>
             Hi, I'm <span className={`text-[#915eff] `}>James</span>
           </h1>
-          <p className=""></p>
+          <p className={`${styles.heroSubText} mt-2 text-white-100`}>
+            I am a software engineer specializing in developing
+            innovative web applications with a multitude of full-stack technologies.
+            <br className="sm:block hidden"/>
+            <br className="sm:block hidden"/>
+            Currently, I teach at App Academy, empowering students to master
+            software development. My passion lies in leveraging technology to
+            create impactful solutions.
+          </p>
         </div>
       </div>
+        <ComputersCanvas />
     </section>
   );
 };
