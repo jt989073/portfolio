@@ -116,58 +116,58 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
-      iconBg: "#383E56",
-      date: "March 2020 - April 2021",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
+        title: "Software Engineering Instructor",
+        company_name: "App Academy",
+        icon: starbucks, // Replace with appropriate icon for App Academy
+        iconBg: "#383E56",
+        date: "August 2023 - Present",
+        points: [
+            "Teaching and mentoring students in software development concepts and technologies.",
+            "Writing extensive documentation on projects built for students.",
+            "Creating npm packages for different projects within App Academy.",
+            "Providing constructive feedback and support to enhance student learning outcomes.",
+        ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
-      iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
+        title: "CEO/Founder",
+        company_name: "Investidom",
+        icon: tesla, // Replace with appropriate icon for Investidom
+        iconBg: "#E6DEDD",
+        date: "April 2021 - August 2023",
+        points: [
+            "Developed and executed business strategies to drive growth and profitability.",
+            "Managed all aspects of operations, including sales, marketing, and finance.",
+            "Collaborated with stakeholders to optimize business processes and customer engagement.",
+            "Leveraged data analytics to inform decision-making and improve service offerings.",
+        ],
     },
     {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
+        title: "Acquisitions Manager/Dispositions",
+        company_name: "Awaken Real Estate",
+        icon: shopify, // Replace with appropriate icon for Awaken Real Estate
+        iconBg: "#383E56",
+        date: "June 2020 - April 2021",
+        points: [
+            "Identified and assessed real estate investment opportunities for acquisition.",
+            "Negotiated contracts and managed relationships with vendors and clients.",
+            "Developed marketing strategies to maximize property visibility and sales.",
+            "Analyzed market trends to inform investment strategies and portfolio management.",
+        ],
     },
     {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
+        title: "Sales Representative",
+        company_name: "AT&T",
+        icon: meta, // Replace with appropriate icon for AT&T
+        iconBg: "#E6DEDD",
+        date: "June 2019 - June 2020",
+        points: [
+            "Provided exceptional customer service and support to clients.",
+            "Executed sales strategies to achieve and exceed performance targets.",
+            "Educated customers on product features and benefits to facilitate informed decisions.",
+            "Maintained accurate records of sales activities and customer interactions.",
+        ],
     },
-  ];
+];
   
   const testimonials = [
     {
