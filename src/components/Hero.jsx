@@ -21,7 +21,7 @@ const Hero = () => {
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
             I am a software engineer specializing in developing
             <br className="sm:block hidden" />
-            innovative web applications with a multitude of full-stack
+            innovative web & mobile applications with a multitude of full-stack
             technologies.
           </p>
         </div>
