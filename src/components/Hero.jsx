@@ -4,7 +4,7 @@ import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
 const Hero = () => {
   return (
-    <section className="relative w-full h-screen mx-auto">
+    <section className="relative w-full h-[1000px] mx-auto">
       <div
         className={`absolute inset-0 top-[120px]  max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-5`}
       >
@@ -23,11 +23,12 @@ const Hero = () => {
             <br className="sm:block hidden"/>
             <br className="sm:block hidden"/>
             Currently, I teach at App Academy, empowering students to master
-            software development. My passion lies in leveraging technology to
+            software development, from zero to hero. My passion lies in leveraging technology to
             create impactful solutions.
           </p>
         </div>
       </div>
+      
         <ComputersCanvas />
     </section>
   );
