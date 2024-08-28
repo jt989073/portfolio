@@ -15,14 +15,14 @@ import {
     git,
     figma,
     docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
+    att,
+    AppAcademy,
+    awaken,
     carrent,
     jobit,
     tripguide,
     threejs,
+    investidom,
   } from "../assets";
   
   export const navLinks = [
@@ -118,7 +118,7 @@ import {
     {
         title: "Software Engineering Instructor",
         company_name: "App Academy",
-        icon: starbucks, // Replace with appropriate icon for App Academy
+        icon: AppAcademy, 
         iconBg: "#383E56",
         date: "August 2023 - Present",
         points: [
@@ -131,7 +131,7 @@ import {
     {
         title: "CEO/Founder",
         company_name: "Investidom",
-        icon: tesla, // Replace with appropriate icon for Investidom
+        icon: investidom, 
         iconBg: "#E6DEDD",
         date: "April 2021 - August 2023",
         points: [
@@ -144,7 +144,7 @@ import {
     {
         title: "Acquisitions Manager/Dispositions",
         company_name: "Awaken Real Estate",
-        icon: shopify, // Replace with appropriate icon for Awaken Real Estate
+        icon: awaken, 
         iconBg: "#383E56",
         date: "June 2020 - April 2021",
         points: [
@@ -157,7 +157,7 @@ import {
     {
         title: "Sales Representative",
         company_name: "AT&T",
-        icon: meta, // Replace with appropriate icon for AT&T
+        icon: att,
         iconBg: "#E6DEDD",
         date: "June 2019 - June 2020",
         points: [
