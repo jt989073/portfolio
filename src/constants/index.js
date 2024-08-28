@@ -46,7 +46,7 @@ import {
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "React Developer",
       icon: mobile,
     },
     {
@@ -129,7 +129,7 @@ import {
         ],
     },
     {
-        title: "CEO / Founder",
+        title: "CEO/Founder",
         company_name: "Investidom",
         icon: tesla, // Replace with appropriate icon for Investidom
         iconBg: "#E6DEDD",
