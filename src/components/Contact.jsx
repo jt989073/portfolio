@@ -17,28 +17,43 @@ const Contact = () => {
   const [loading, setLoading] = useState(false);
 
   const handleChange = (e) => {
-    setForm({ ...form, [e.target.name]: e.target.value });
+    const { name, value } = e.target;
+    setForm({ ...form, [name]: value });
   };
 
   const handleSubmit = async (e) => {
     e.preventDefault();
     setLoading(true);
 
-    try {
-      await emailjs.sendForm(
-        "service_your_email_service_id",
-        "template_your_email_template_id",
-        formRef.current,
-        "user_your_email_id"
+    await emailjs
+      .send(
+        "service_c9naa8i",
+        "template_gt8zxjc",
+        {
+          from_name: form.name,
+          to_name: "James",
+          from_email: form.email,
+          to_email: "thompsonjames0120@gmail.com",
+          message: form.message,
+        },
+        "v1DglwdmjGlxduymX"
+      )
+      .then(
+        () => {
+          setLoading(false);
+          alert("Thank you for reaching out! I'll get back to you shortly.");
+          setForm({
+            name: "",
+            email: "",
+            message: "",
+          });
+        },
+        (error) => {
+          setLoading(false);
+          console.log(error);
+          alert("Failed to send email. Please try again later.");
+        }
       );
-      alert("Message sent successfully!");
-      setForm({ name: "", email: "", message: "" });
-    } catch (error) {
-      console.error("Error sending email:", error);
-      alert("Failed to send message. Please try again later.");
-    } finally {
-      setLoading(false);
-    }
   };
 
   return (
